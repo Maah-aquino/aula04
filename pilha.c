@@ -50,6 +50,6 @@ int pilha_vazia(Pilha* p) {
     return p ? (p->topo == -1) : 1;
 }
 
-int pilha_topo(Pilha* p) {
-    return p ? (p->topo != -1 ? p->elementos[p->topo] : 0) : 0;
-}
+//int pilha_vazia(Pilha* p) {
+ //   return p ? (p->topo != -1 ? p->elementos[p->topo] : 0) : 0;
+//}

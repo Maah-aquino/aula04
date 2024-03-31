@@ -8,6 +8,6 @@ void pilha_libera(Pilha* p);
 int pilha_push(Pilha* p, int elemento);
 int pilha_pop(Pilha* p);
 int pilha_vazia(Pilha* p);
-int pilha_topo(Pilha* p);
+
 
 #endif  // PILHA_H
